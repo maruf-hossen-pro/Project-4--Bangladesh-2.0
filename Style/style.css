@@ -92,7 +92,8 @@
     display: flex;
     justify-content: space-evenly;
 }
-.card-title{
+
+.card-title {
     margin-top: 70px;
     margin-bottom: 40px;
 }
@@ -117,7 +118,182 @@
     text-align: center;
 }
 
-.card-icon{
+.card-icon {
     width: 50px;
     height: 50px;
+}
+
+.vision-card {
+    display: flex;
+    /* width: 80%; */
+    justify-content: space-evenly;
+    font-family: "Fira Sans", sans-serif;
+}
+
+.digital {
+    background: #ffffff;
+    border-radius: 15px;
+    padding: 30px;
+    width: 28%;
+    font-size: 13px;
+    background-color: rgba(84, 144, 245, 0.2);
+
+
+}
+
+.energy {
+    background: #ffffff;
+    border-radius: 15px;
+    margin-left: 20px;
+    padding: 30px;
+    width: 28%;
+    font-size: 13px;
+    background-color: rgba(198, 228, 214, 1);
+
+
+}
+
+.infrastructure {
+    background: #ffffff;
+    border-radius: 15px;
+    margin-left: 20px;
+    padding: 30px;
+    width: 28%;
+    font-size: 13px;
+    background-color: rgba(247, 235, 207, 1);
+
+
+}
+
+.vision-title{
+    margin-top: 70px;
+}
+.vision-para{
+    margin-bottom: 30px;
+    color: rgba(14, 14, 14, 0.6);
+}
+
+.vision-btn-1{
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-style: none;
+    border-radius: 10px;
+    color: #ffffff;
+    font-weight: 600;
+    background-color: #5490F5;
+    margin-top: 20px;
+}
+.vision-btn-2{
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-style: none;
+    border-radius: 10px;
+    color: #ffffff;
+    font-weight: 600;
+    background-color: #09A15C;
+    margin-top: 20px;
+}
+.vision-btn-3{
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-style: none;
+    border-radius: 10px;
+    color: #ffffff;
+    font-weight: 600;
+    background-color: #FFC239;
+    margin-top: 20px;
+}
+
+.quatiotion{
+    background-color: #ffffff;
+    border-radius: 15px;
+    margin-top: 30px;
+    background-image: url("../assets/quote-bg.png");
+    background-repeat: no-repeat;
+    padding: 20px;
+    background-position: 20px 20px;
+    background-size: 55px auto;
+     padding: 25px 20px 25px 20px;
+
+    box-sizing: border-box;
+    /* line-height: 18px; */
+}
+/* Main section */
+.table-section h2 {
+    margin-top: 70px;
+    font-size: 28px;
+}
+
+
+/* White box around table */
+.table-container {
+    background-color: #ffffff;
+    padding: 23px;
+    border-radius: 12px;
+}
+
+
+/* Table */
+table {
+    width: auto;
+    border-collapse: collapse;
+    border: 1px solid #d5d5d5;
+}
+
+
+/* Header */
+.table-data th {
+    background-color: rgba(198, 228, 214, 1);
+    padding: 17px;
+    text-align: left;
+    border: 1px solid #b8cfc4;
+}
+
+
+/* Question column */
+.table-faqs td:first-child {
+    width: 40%;
+}
+
+
+/* Opinion column */
+.table-faqs td:last-child {
+    width: 10%;
+    text-align: center;
+}
+
+
+/* Table rows */
+.table-faqs td {
+    padding: 16px;
+    border: 1px solid #d5d5d5;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+
+/* Button */
+.table-faqs button {
+    background-color: #c6e4d6;
+    border: 1px solid #555;
+    border-radius: 4px;
+
+    padding: 8px 12px;
+
+    font-size: 12px;
+    font-weight: 600;
+
+    cursor: pointer;
+
+    min-width: 110px;
+}
+
+
+/* Arrow */
+.table-faqs button span {
+    font-size: 18px;
+    margin-left: 12px;
 }
