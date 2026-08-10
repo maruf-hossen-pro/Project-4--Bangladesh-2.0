@@ -30,9 +30,9 @@
     cursor: pointer;
 }
 
-.hero-item{
+.hero-item {
     padding-left: 40px;
-    
+
 }
 
 .hero {
@@ -47,23 +47,21 @@
     border-radius: 15px;
     font-family: "Fira Sans", sans-serif;
     margin-top: 30px;
-    
+
 
 }
 
-.hero-title{
+.hero-title {
     font-size: 45px;
 }
 
 .hero-subtitle {
     color: rgba(14, 14, 14, 0.2);
     font-size: medium;
-    
+
 }
 
-.hero-title {
-    
-}
+.hero-title {}
 
 .hero-btn {
     font-size: 13px;
@@ -77,8 +75,49 @@
 
 }
 
-.hero-img{
+.hero-img {
     width: 380px;
     height: 300px;
     padding: 20px;
+}
+
+.main {
+    width: 80%;
+    max-width: 1500px;
+    margin: 0 auto;
+    font-family: "Fira Sans", sans-serif;
+}
+
+.pillar {
+    display: flex;
+    justify-content: space-evenly;
+}
+.card-title{
+    margin-top: 70px;
+    margin-bottom: 40px;
+}
+
+.card-design {
+    /* width: 250px; */
+    height: 200px;
+    background: #ffffff;
+    border-radius: 12px;
+    /* Dark shadow on bottom-right, White highlight on top-left */
+    box-shadow:
+        6px 6px 16px rgba(163, 177, 198, 0.5),
+        -6px -6px 16px rgba(255, 255, 255, 1);
+
+    /* margin: 20px; */
+    padding: 20px;
+    font-size: 0.85rem;
+    color: #7f8c8d;
+    line-height: 1.6;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.card-icon{
+    width: 50px;
+    height: 50px;
 }
