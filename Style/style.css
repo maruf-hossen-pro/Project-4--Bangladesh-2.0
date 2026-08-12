@@ -1,3 +1,4 @@
+
 .menu {
     width: 80%;
     max-width: 1500px;
@@ -454,4 +455,30 @@ table {
     color: #ffffff;
     font-weight: 600;
     font-size: 15px;
+}
+
+.finishing{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: "Fira Sans", sans-serif;
+    background-color: #ffffff;
+    
+}
+
+.social-icon{
+    width: 20px;
+    height: 20px;
+    padding: 20px;
+    
+}
+
+.images{
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+    padding: 0 350px;
+    border-top: 1px solid rgb(221, 219, 219);
 }
