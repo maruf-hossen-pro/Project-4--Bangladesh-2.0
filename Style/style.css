@@ -363,3 +363,45 @@ table {
     color: rgba(14, 14, 14, 0.6);
     
 }
+
+.donation{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.donation-card-box{
+    display: flex;
+    flex-direction: row;
+}
+.donation-card{
+    /* width: auto; */
+    /* height: 60px; */
+    padding: 0 20px;
+    font-size: 18px;
+    justify-content: space-evenly;
+    margin: 20px;
+    background-color: #ffffff;
+    border-radius: 5px;
+
+}
+
+.amount-input{
+    
+
+     width: 60%;
+    height: 60px;
+    margin: 0 auto;
+    box-sizing: border-box;
+
+    border: none;
+    border-bottom: 1px solid #ddd;
+
+    background-color: #fff;
+
+    text-align: center;
+    font-size: 16px;
+    color: #333;
+    
+}
