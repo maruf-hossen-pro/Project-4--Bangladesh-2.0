@@ -405,3 +405,53 @@ table {
     color: #333;
     
 }
+.footer{
+   
+    width: 80%;
+    max-width: 1500px;
+    margin: 0 auto;
+    font-family: "Fira Sans", sans-serif;
+    background-color: #C6E4D6;
+    border-radius: 15px;
+}
+
+.newsletter{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+     width: 60%;
+    max-width: 1500px;
+    margin: 40px auto;
+    padding: 40px;
+    
+}
+.subscribe-container{
+    display: flex;
+    /* justify-content: center;
+    align-items: center;
+    text-align: center; */
+    
+}
+
+.email-input{
+    
+    flex: 1;
+    height: 100%;
+    padding: 15px 300px 15px 10px;
+     border-radius: 8px 0 0 8px;
+     border: none;
+     justify-content: center;
+     align-items: center;
+     text-align: center;
+}
+.subscribe-btn{
+    padding: 10px 30px;
+    border-radius: 0 8px 8px 0;
+    border: none;
+    background-color: #006A50;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 15px;
+}
